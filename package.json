@@ -1,0 +1,29 @@
+{
+  "name": "cli-pass-gen",
+  "version": "1.0.0",
+  "description": "Cryptographically secure CLI password generator written in TypeScript",
+  "main": "dist/index.js",
+  "bin": {
+    "passgen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "generate": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "cli",
+    "security",
+    "typescript"
+  ],
+  "author": "jonatakuzi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
